@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheets/content.css">
+	<link rel="stylesheet" href="stylesheets/contacts.css">
+	<link rel="stylesheet" href="stylesheets/header.css">
+	<link rel="stylesheet" href="stylesheets/footer.css">
+	<script src='js/google-maps.js'></script>
+	<script async defer
+ 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDV23KPG4alLWR1_ENBxlTOeZJ-QJLzRU&callback=initMap"></script>
+ </head> 
+	<title>Mishka</title>
+</head>
+<body>
+	<header	class="header">
+		<div class="container clearfix">		
+			<a href="index.html" class="header__logo"><img class="header__logo-image" 
+			src="img/versus.png" alt=""></a>
+			<nav class="header__nav">
+				<ul class="header__nav-menu nav-menu">
+					<li class="nav-menu__item"><a class='nav-menu__button nav-menu__button_active' href="index.html">Home</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">About</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Services</a></li>
+					<li class="nav-menu__item"><a class="nav-menu__dropdown-button nav-menu__button" >Portfolio</a>
+						<ul class="nav-menu__dropdown-list">
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 2-column page</a></li>
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 3-column page</a></li>
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 4-column page</a></li>							
+						</ul>
+					</li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Blog</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Features</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="contacts.html">Contacts</a></li>	
+					<li class="nav-menu__item nav-menu__item_serach"><a class='nav-menu__button' href="#"><img class="header__nav-search"  src="img/scope.png" alt="" ></a></li>	
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="title">
+		<div class="container clearfix">
+			<div class="title_name"> CONTACT US 
+			</div>
+			<div class="title_items">
+				<div class="title_item"> Home	
+				</div>   /  
+				<div class="title_item"> Contact us
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="maps">
+		<div id="map">
+		</div>
+	</section>
+	<section class="info">
+		<div class="info__text">
+		Etiam tincidunt laoreet turpis a vulputate. Etiam diam lorem, convallis ac laoreet a, pretium id nisl. Morbi tincidunt nibh a ante fringilla at tincidunt eros venenatis. Nunc a dui mi, in imperdiet sem. Aenean eu nulla massa. Ut interdum tristique est commodo pharetra.
+		</div>
+	</section>
+	<section class="form">
+		<div class="form__send">
+			<div class="form__title">
+			SEND INQUIRY
+			</div>
+			<div class="form__send-items">
+			<div class="form__send-item">
+				<div class="form__attribute">
+					<input class="form__input-info" type="text" name="name" required/><br /> 
+				</div>
+				<div class="form__parameter"> Name 
+				</div>
+			</div>
+			<div class="form__send-item">
+				<div class="form__attribute">
+					<input class="form__input-info" type="email" name="e-mail" required /><br />
+				</div>
+				<div class="form__parameter">E-mail
+				</div>
+			</div>
+			<div class="form__send-item">
+				<div class="form__attribute">
+					<input class="form__input-info" type="text" name="text" required /><br /> 
+				</div>
+				<div class="form__parameter">Web site
+				</div>
+			</div>	
+			<div class="form__attribute">
+			<textarea class="form__input-dopinfo" cols="30" rows="5"/></textarea>
+			</div>
+			<br>
+			<button class="form__button-send">SEND</button>
+			</div>
+		</div>
+		<div class="form__address">
+			<div class="form__title">ADDRESS
+			</div>
+			<div class="form__info">
+				<div class="form__info-items">
+					<div class="form__info-item info-marker">
+						<img class="form__info-image" src="img/marker.png">
+						<div class="form__info-text"> Ut interdum tristique est com modo pharetra. 
+						</div>
+					</div>
+					<div class="form__info-item info-tel">
+						<img class="form__info-image" src="img/tel.png"> 
+						<div class="form__info-text tel">111 5698 5698
+						</div>
+					</div>
+					<div class="form__info-item info-e-mail">
+						<img class="form__info-image" src="img/e-mail.png">
+						<a class="form__info-text e-mail" href=""> modus@versus.com 
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<section class="footer-wrapper">
+			<div class="container clearfix">
+				<div class="footer-wrapper__info footer-info">
+					<a href="#" class="footer-info__logo"><img src="img/versus.png" alt="logo" class="footer__logo-image"></a>
+					<p class="footer-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
+					<p class="footer-info__phone">Phone: 
+					<span class="footer-info__number">182 2569 5896</span>
+					</p>
+					<p class="footer-info__email">e-mail: 
+					<span class="footer-info__email-text">info@modu.versus</span>
+					</p>
+				</div>
+				<div class="footer-wrapper__company footer-company">
+					<h4 class="footer-company__title">Company</h4>
+					<ul class="footer-company__list">
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">About</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">FAQ</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Contact</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Terms</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Privacy</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Testimonials</a></li>
+					</ul>
+				</div>
+				<div class="footer-wrapper__community footer-community">
+					<h4 class="footer-community__title">Community</h4>
+					<ul class="footer-community__list">
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Blog</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Forum</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Support</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Newsletter</a></li>
+					</ul>
+				</div>
+				<div class="footer-wrapper__blog footer-blog">
+					<h4 class="footer-blog__title">from the <span class="footer-blog__boldtitle">BLOG</span></h4>
+					<div class="footer-blog__item">
+						<div class="footer-blog__item-border"><img src="img/no-img.png" alt="" class="footer-blog__item-image"></div>
+						<a class="footer-blog__refer" href="#"><p class="footer-blog__item-text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit</p></a>
+						<p class="footer-blog__item-date">26 May, 2013</p>
+					</div>
+					<div class="footer-blog__item">
+						<div class="footer-blog__item-border"><img src="img/no-img.png" alt="" class="footer-blog__item-image"></div>
+						<a class="footer-blog__refer" href="#"><p class="footer-blog__item-text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit</p></a>
+						<p class="footer-blog__item-date">26 May, 2013</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="footer-feedback">
+			<div class="container clearfix">
+				<p class="footer-feedback__copyright">2013 ModusVersus</p>
+				<div class="footer-feedback__social">
+					<a href="https://facebook.com" class="footer-feedback__social-facebook"><img src="img/Facebook.png" alt="facebook" class=""></a>
+					<a href="https://plus.google.com" class="footer-feedback__social-gplus"><img src="img/gplus.png" alt="gplus" class=""></a>
+					<a href="https://twitter.com" class="footer-feedback__social-twitter"><img src="img/twetter.png" alt="" class=""></a>
+					<a href="#" class="footer-feedback__social-rss"><img src="img/rss.png" alt="" class=""></a>
+				</div>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>

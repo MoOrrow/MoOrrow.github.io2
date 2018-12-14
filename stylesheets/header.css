@@ -1,0 +1,152 @@
+.header{
+	min-height: 25px;
+	background: url(../img/bg.jpg) no-repeat center top /cover;
+	color: #fff	;
+}
+
+.header__logo{
+	float: left;
+	margin: 27px 0px 30px 5px;
+
+}
+
+.header__logo-image:hover{
+	opacity: 0.8;
+}
+
+.header__nav{
+	float: right;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.header__nav-menu{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	list-style: none;
+}
+	
+
+.nav-menu__item{
+	float: left;
+	display: block;
+	position: relative;
+	line-height: 10px;
+}
+
+.nav-menu__item_search{
+	float: right;
+	margin-top: -10px;
+}
+
+.nav-menu__button{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 5px 17px;
+    margin-right: 16px;
+}
+
+
+.nav-menu__button_active{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+    margin-right: 20px;
+	border-radius: 4px;
+	background: #6e978e;
+	padding: 5px 17px;
+	box-shadow: 0px 3px 0px #608278;
+}
+
+
+.nav-menu__button:hover{
+	border-radius: 4px;
+	background: #6e978e;
+	padding: 5px 17px;
+	box-shadow: 0px 3px 0px #608278;
+	transition: 0.2s;
+}
+
+.nav-menu__button:active{
+	background: #e8645a;
+	box-shadow: 0px 3px 0px #e2534b
+}
+
+.nav-menu__dropdown-button{
+	position: relative;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding: 8px 15px;
+	color: #fff	;
+	font-size:13px;
+	cursor: pointer;
+}
+
+.nav-menu__dropdown-button:before{
+	content: url(../img/togglearrowright.png);
+	margin-right: 5px;
+}
+
+.nav-menu__dropdown-list{
+    float: left;
+    min-width: 200px;
+    margin-top: 12px;
+    padding: 5px 0;
+    margin: 20px 0 0;
+    background: #e8645a;
+    border-radius: 5px;
+    list-style: none;
+    position: absolute;
+    z-index: 1000;
+    visibility: hidden;
+    font-size: 14px;
+    text-align: left;
+}
+
+.nav-menu__dropdown-list:before{
+	content: '';
+	border: 8px solid;
+	border-color: transparent transparent #e8645a transparent;
+	position: absolute;
+	top: -15px;
+	left: 10px;
+}
+
+.nav-menu__item:hover > .nav-menu__dropdown-list{
+	visibility: visible;
+	transition: 0.5s;
+}
+
+.nav-menu__dropdown-item{
+	padding: 8px 0px;
+	margin: 5px;
+	border-radius: 3px;
+    border-bottom: none;
+    color: #fff;
+    background: #e5655d;
+    font-size: 13px;
+}
+
+.nav-menu__dropdown-item:hover{
+	background: #76c7c0;
+}
+
+.nav-menu__dropdown-link{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+    border-radius: 3px;
+    border-bottom: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.nav-menu__dropdown-link:before{
+	content:url(../img/togglearrowright.png);
+	margin-right: 6px;
+}
+

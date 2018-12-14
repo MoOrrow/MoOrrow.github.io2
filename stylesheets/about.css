@@ -1,0 +1,246 @@
+.about{
+	margin-top:76px;
+	min-height: 25px;
+	background: url(../img/bgtwice.jpg) repeat-x, 
+	linear-gradient(to bottom, #ececec 400px, #f3f3f3 400px);
+}
+
+
+.about-text{
+	text-align: center;
+	padding-top: 65px;
+	margin-bottom: 65px;
+}
+
+.about-text__title{
+	color: #e1524b;
+	font-size: 40px;
+	margin-bottom: -1px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.about-text__subtitle{
+	color: #969696;
+	font-size: 13px;
+	font-weight: 400;
+	word-spacing: -1px;
+}
+
+.about-viewer{
+	padding-top: 55px;
+	height: 360px;
+	position: relative;
+}
+
+.about-viewer__image{
+    padding: 16px 5px 5px;
+    background: #B0B8B9;
+    border-radius: 8px;
+    width: 33.3%;
+    background-color: #b0b8b9;
+}
+
+.about-viewer__image_center{
+	position: absolute;
+	top: 0px;
+	left: 25.6%;
+	z-index: 2;
+	width: 47.5%;
+	height: 340px;
+	background: #c1c7c8;
+}
+
+.about-viewer__image_left{
+	float: left;
+	margin-left: -5px;
+}
+
+.about-viewer__image_right{
+	float: right;
+	margin-right: 5px;
+}
+
+.about-viewer__image-circle{
+	display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ececec;
+    margin-left: 4px;
+    margin-bottom: 12px;
+}
+
+.about-viewer__image-elipse{
+	float: right;
+    width: 12px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ececec;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+
+.about-viewer__screen{
+	border-radius: 6px;
+    overflow: hidden;
+    height: 210px;
+    vertical-align: middle;
+}
+
+.about-viewer__screen_center{
+	height: 310px;
+}
+
+.about-viewer__screen-refer{
+    cursor: pointer;
+}
+
+.about-viewer__screen-image{
+	max-width: 100%;
+	border-radius: 6px;
+	border: none;
+}
+
+.about-stack__choise{
+	display: inline-block;
+}
+
+.about-stack__choise-title{
+	color: #929c9c;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: 800;
+}
+
+.about-stack__choise-item{
+	list-style: none;
+	color: #777777;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.about-stack__choise-item:before{
+	content: url(../img/coisearrow.png);
+	margin-right: 5px;
+}
+
+/*STATS*/
+
+.about-stack__statistics{
+	margin-top: -5px;
+	margin-left: 95px;
+	display: inline-block;
+	vertical-align: top;
+	width: 540px;
+
+}
+
+.about-statistics__subtitle{
+	//display: inline-block;
+	text-align: left;
+	//font-weight: 300;
+	height: auto;
+	font-size: 13px;
+	letter-spacing: -0.1px;
+	word-spacing: -0.2px;
+	line-height: 2;
+	color: #777777;
+	font-stretch: expanded;
+}
+
+.about-statistics__link{
+	letter-spacing: 0.2;
+	word-spacing: 1.9px;
+	color: #e1524b;
+}
+
+.about-statistics__progress{
+	height: 155px;
+	margin-left: -12px;
+	margin-top: 54px;
+}
+
+.about-statistics__progress-item{
+	position: relative;
+	display: inline-block;
+	width: 120px;
+	height: inherit;
+	float: left;
+	text-align: center;
+	margin-right: 23px;;
+}
+
+.about-statistics__progress-item:nth-child(3){
+	margin-right: 18px;
+
+}
+
+.about-statistics__progress-item:last-child{
+	float: right;
+	margin-right: 0px;
+}
+
+.about-statistics__progress-value{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #7f8c8c;
+	margin-top: -36px;	
+	margin-bottom: 16px;	
+}
+
+.about-statistics__progress-headline{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #7f8c8c;
+}
+
+.about-stack__opinion{
+	display: inline-block;
+	width: 270px;
+	float: right;
+	margin-left: 35px;
+
+}
+
+.about-stack__opinion-title{
+	color: #929c9c;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+
+.about-stack__opinion-mean{
+	font-style: italic;
+	font-size: 13px;
+	line-height: 26px;
+	margin: 0 0 10px;
+	background: #f8f8f8;
+	border-radius: 4px;
+	padding: 5px 18px 10px;
+	position: relative;
+	color: #828282;
+}
+
+.about-stack__opinion-mean::after{
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	left: 20px;
+	bottom: -24px;
+	border: 12px solid;
+	border-color: #f8f8f8 #f8f8f8 transparent transparent;
+}
+
+
+.about-stack__opinion-author{
+	margin-left: 65px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #777;
+	margin-top: 7px;
+}

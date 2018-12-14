@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	box-sizing: border-box;
+	background-color: #f3f3f3;
+	width: 1500px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear:both;
+}

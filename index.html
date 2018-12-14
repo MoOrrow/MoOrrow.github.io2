@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheets/content.css">
+	<link rel="stylesheet" href="stylesheets/header.css">
+	<link rel="stylesheet" href="stylesheets/slideshow.css">
+	<link rel="stylesheet" href="stylesheets/intro.css">
+	<link rel="stylesheet" href="stylesheets/services.css">
+	<link rel="stylesheet" href="stylesheets/about.css">
+	<link rel="stylesheet" href="stylesheets/footer.css">
+	<link rel="stylesheet" href="stylesheets/clients.css">
+	<link rel="stylesheet" href="stylesheets/slick.css">
+	<link rel="stylesheet" href="stylesheets/slick-theme.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<title>ModusVersus</title>
+</head>
+<body>
+	<header	class="header">
+		<div class="container clearfix">		
+			<a href="index.html" class="header__logo"><img class="header__logo-image" 
+			src="img/versus.png" alt=""></a>
+			<nav class="header__nav">
+				<ul class="header__nav-menu nav-menu">
+					<li class="nav-menu__item"><a class='nav-menu__button nav-menu__button_active' href="index.html">Home</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">About</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Services</a></li>
+					<li class="nav-menu__item"><a class="nav-menu__dropdown-button nav-menu__button" >Portfolio</a>
+						<ul class="nav-menu__dropdown-list">
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 2-column page</a></li>
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 3-column page</a></li>
+							<li class="nav-menu__dropdown-item"><a class="nav-menu__dropdown-link" href="#">Portfolio 4-column page</a></li>							
+						</ul>
+					</li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Blog</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="#">Features</a></li>
+					<li class="nav-menu__item"><a class='nav-menu__button' href="contacts.html">Contacts</a></li>	
+					<li class="nav-menu__item nav-menu__item_serach"><a class='nav-menu__button' href="#"><img class="header__nav-search"  src="img/scope.png" alt="" ></a></li>	
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="slideshow">
+		<div class="slideshow__headline">
+			<h1 class="slideshow__headline-text">vestibulum</h1>
+  		</div>
+  		<div class="slideshow__paragraph">
+  			<span class="slideshow__paragraph-text">Maecenas tincidunt, augue et rutrum condimentum,<br> libero lectus mattis orci, ut commodo.</span>
+  		</div>
+  		<div class="slideshow__slides slideshow__slides_fade">
+		    <img src="img/2014-twitter-header-dimensions (5).jpg" class="slideshow__slides-image">
+		</div>
+
+		<div class="slideshow__slides slideshow__slides_fade">
+		    <img src="img/2014-twitter-header-dimensions (9).jpg" class="slideshow__slides-image">
+		</div>
+
+		<div class="slideshow__slides slideshow__slides_fade">
+		    <img src="img/2014-twitter-header-dimensions (18).jpg" class="slideshow__slides-image">
+		</div>
+		<a class="slideshow__button-pref" onclick="plusSlides(-1)"><img src="img/arrowleft.png"></a>
+		<a class="slideshow__button-next" onclick="plusSlides(1)"><img src="img/arrowright.png"></a>
+		<div class="slideshow__radiobutton">
+			<span class="slideshow__radiobutton-point" onclick="currentSlide(1)"></span> 
+			<span class="slideshow__radiobutton-point" onclick="currentSlide(2)"></span> 
+			<span class="slideshow__radiobutton-point" onclick="currentSlide(3)"></span> 
+		</div>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+	</section>		
+	<section class="intro">
+		<div class="container">
+			<div class="intro-wrapper">
+				<h2 class="intro__headline">Some of our top services</h2>
+				<br>
+				<p class="intro__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
+				<a class="intro__button" href="#">View more</a>
+			</div>	
+		</div>
+	</section>
+	<section class="services">
+		<div class="container clearfix">
+			<div class="services-content">
+				<div class="services-content__wrapper services-content__wrapper_first ">
+					<div class="services-content__icon services-content__icon_thumbup"></div>
+					<h2 class="services-content__headline">Suspendisse</h2>
+					<p class="services-content__text">Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
+					<a class="services-content__button" href="#">read more</a>	
+				</div>
+				<div class="services-content__wrapper services-content__wrapper_second">
+					<div class="services-content__icon services-content__icon_key"></div>
+					<h2 class="services-content__headline">Maecenas</h2>
+					<p class="services-content__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+					<a class="services-content__button" href="#">read more</a>							
+				</div>
+				<div class="services-content__wrapper services-content__wrapper_third">
+					<div class="services-content__icon services-content__icon_flag"></div>
+					<h2 class="services-content__headline">Aliquam</h2>
+					<p class="services-content__text">Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+					<a class="services-content__button" href="#">read more</a>							
+				</div>
+				<div class="services-content__wrapper services-content__wrapper_fourth">
+					<div class="services-content__icon services-content__icon_alchemy"></div>
+					<h3 class="services-content__headline">Habitasse</h3>
+					<p class="services-content__text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+					<a class="services-content__button" href="#">read more</a>							
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<div class="about-text">
+				<h2 class="about-text__title">Why modus versus?</h2>
+				<p class="about-text__subtitle">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</p>
+			</div>
+			<div class="about-viewer">
+				<div class="about-viewer__image about-viewer__image_right">
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-elipse"></span>
+					<div class="about-viewer__screen"><a class="about-viewer__screen-refer" href="#"><img src="img/2014-twitter-header-dimensions-9-mini.jpg" alt="" class="about-viewer__screen-image"></a></div>
+				</div>
+				<div class="about-viewer__image about-viewer__image_center">
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-elipse"></span>
+					<div class="about-viewer__screen about-viewer__screen_center">
+					<a class="about-viewer__screen-refer" href="#"><img src="img/2014-twitter-header-dimensions-5-mini.jpg" alt="" class="about-viewer__screen-image"></a>	
+					</div>
+				</div>
+				<div class="about-viewer__image about-viewer__image_left">
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-circle"></span>
+					<span class="about-viewer__image-elipse"></span>
+					<div class="about-viewer__screen">
+					<a class="about-viewer__screen-refer" href="#"><img src="img/2014-twitter-header-dimensions-18-mini.jpg" alt="" class="about-viewer__screen-image"></a>	
+					</div>
+				</div>
+			</div>
+			<div class="about-stack">
+				<div class="about-stack__choise">
+					<h4 class="about-stack__choise-title">
+						Why Choose Us ?
+					</h4>
+					<ul class="about-stack__choise-list">
+						<li class="about-stack__choise-item">Quisque at massa ipsum</li>
+						<li class="about-stack__choise-item">Maecenas a lorem augue, egestas </li>
+						<li class="about-stack__choise-item">Cras vitae felis at lacus eleifend </li>
+						<li class="about-stack__choise-item">Etiam auctor diam pellentesque </li>
+						<li class="about-stack__choise-item">Nulla ac massa at dolor</li>
+						<li class="about-stack__choise-item">Condimentum eleifend vitae vitae </li>
+					</ul>
+				</div>
+				<div class="about-stack__statistics about-statistics">
+					<p class="about-statistics__subtitle">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a class="about-statistics__link" href="#">vehicula mattis</a>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
+					<div class="about-statistics__progress">
+						<div class="about-statistics__progress-item">	
+							<img class="about-statistics__progress-image" src="img/50.png" alt="50percent" >
+							<p class="about-statistics__progress-value">50</p>
+							<p class="about-statistics__progress-headline">Suspendisse</p>
+						</div>						
+						<div class="about-statistics__progress-item">	
+							<img class="about-statistics__progress-image" src="img/70.png" alt="70percent">
+							<p class="about-statistics__progress-value">70</p>
+							<p class="about-statistics__progress-headline">Maecenas</p>
+						</div>
+						<div class="about-statistics__progress-item">	
+							<img class="about-statistics__progress-image" src="img/80.png" alt="80percent">
+							<p class="about-statistics__progress-value">80</p>
+							<p class="about-statistics__progress-headline">Aliquam</p>
+						</div>
+						<div class="about-statistics__progress-item">	
+							<img class="about-statistics__progress-image" src="img/100.png" alt="100percent">
+							<p class="about-statistics__progress-value">100</p>
+							<p class="about-statistics__progress-headline">Habitasse</p>
+						</div>
+					</div>	
+				</div>
+				<div class="about-stack__opinion">
+					<h4 class="about-stack__opinion-title">
+						What Client's Say?
+					</h4>
+					<p class="about-stack__opinion-mean">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum</p>
+					<p class="about-stack__opinion-author">Jhon Doe</p>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<section class="clients">
+		<div class="container">
+			<h4 class="clients-title__text">Our Happy Clients</h4>
+			<div class="clients-separator">
+				<span class="clients-separator__circle"></span>
+			</div>
+			<div class="clients-buttons">
+				<a href="#" class="clients-button clients-button__left"><img src="img/soloarrowleft.png" alt="" class="clients-button__image"></a>
+				<a href="#" class="clients-button clients-button__right"><img src="img/soloarrowright.png" alt="" class="clients-button__image"></a>
+			</div>
+			
+			<div class ="clients-carousel">
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+				<div class="clients-carousel__element"><img src="img/jquery.png" alt="jquery" class="clients-carousel__element-img"></div>
+			</div>
+		</div>
+		<script src="js/slick.min.js"></script>
+		<script src="js/clients-carousel.js"></script>
+	</section>
+	<footer class="footer">
+		<section class="footer-wrapper">
+			<div class="container clearfix">
+				<div class="footer-wrapper__info footer-info">
+					<a href="#" class="footer-info__logo"><img src="img/versus.png" alt="logo" class="footer__logo-image"></a>
+					<p class="footer-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
+					<p class="footer-info__phone">Phone: 
+					<span class="footer-info__number">182 2569 5896</span>
+					</p>
+					<p class="footer-info__email">e-mail: 
+					<span class="footer-info__email-text">info@modu.versus</span>
+					</p>
+				</div>
+				<div class="footer-wrapper__company footer-company">
+					<h4 class="footer-company__title">Company</h4>
+					<ul class="footer-company__list">
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">About</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">FAQ</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Contact</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Terms</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Privacy</a></li>
+						<li class="footer-company__item"><a href="#" class="footer-company__refer">Testimonials</a></li>
+					</ul>
+				</div>
+				<div class="footer-wrapper__community footer-community">
+					<h4 class="footer-community__title">Community</h4>
+					<ul class="footer-community__list">
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Blog</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Forum</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Support</a></li>
+						<li class="footer-community__item"><a href="#" class="footer-community__refer">Newsletter</a></li>
+					</ul>
+				</div>
+				<div class="footer-wrapper__blog footer-blog">
+					<h4 class="footer-blog__title">from the <span class="footer-blog__boldtitle">BLOG</span></h4>
+						<div class="footer-blog__item">
+						<div class="footer-blog__item-border"><img src="img/no-img.png" alt="" class="footer-blog__item-image"></div>
+						<a class="footer-blog__refer" href="#"><p class="footer-blog__item-text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit</p></a>
+						<p class="footer-blog__item-date">26 May, 2013</p>
+					</div>
+					<div class="footer-blog__item">
+						<div class="footer-blog__item-border"><img src="img/no-img.png" alt="" class="footer-blog__item-image"></div>
+						<a class="footer-blog__refer" href="#"><p class="footer-blog__item-text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit</p></a>
+						<p class="footer-blog__item-date">26 May, 2013</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="footer-feedback">
+			<div class="container clearfix">
+				<p class="footer-feedback__copyright">2013 ModusVersus</p>
+				<div class="footer-feedback__social">
+					<a href="https://facebook.com" class="footer-feedback__social-facebook"><img src="img/Facebook.png" alt="facebook" class=""></a>
+					<a href="https://plus.google.com" class="footer-feedback__social-gplus"><img src="img/gplus.png" alt="gplus" class=""></a>
+					<a href="https://twitter.com" class="footer-feedback__social-twitter"><img src="img/twetter.png" alt="" class=""></a>
+					<a href="#" class="footer-feedback__social-rss"><img src="img/rss.png" alt="" class=""></a>
+				</div>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>

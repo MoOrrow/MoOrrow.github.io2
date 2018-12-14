@@ -1,0 +1,114 @@
+.slideshow{
+	max-width: 1500px;
+	position: relative;
+}
+
+.slideshow__headline{
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	text-transform: uppercase;
+	background: #e8645a;
+	border-radius: 5px;
+	height: 10%;
+	width: 345px;
+	top:30%;
+	left: 38.5%;
+	text-align: center;
+}
+
+.slideshow__headline-text{
+	font-size: 47px;
+	font-weight: 800;
+	margin-top: -10px;
+	letter-spacing: 0.9px;
+}
+
+.slideshow__paragraph{
+	position: absolute;
+	background:#3f4646;
+	color: #fff;
+	height: 13%;
+	width: 470px;
+	border-radius: 5px;
+	z-index: 2;
+	top: 41.2%;
+	left: 34.5%;	
+	text-align: center;
+	line-height: 27px;
+	font-weight: 100;
+	padding-top: 6px;
+}
+
+.slideshow__paragraph-text{
+	font-size: 16px;
+	letter-spacing: 0.7;
+	margin: 0 5px;
+	
+}
+
+
+.slideshow__slides {
+    display: none;
+}
+
+.slideshow__slides-image{
+	width: 100%;
+}
+
+.slideshow__button-pref, .slideshow__button-next {
+	cursor: pointer;
+	position: absolute;
+	outline: none;
+	top: 45%;
+	width: auto;
+	margin-top: -22px;
+	padding: 20px 15px 10px 14px;
+	color: #fff;
+	font-size: 22px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	background: #e8645a;
+	box-shadow: 0px 3px 0px #e2534b
+
+}
+
+.slideshow__button-next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.slideshow__radiobutton{
+	text-align: center;
+}
+.slideshow__radiobutton-point {
+	margin-top: 15px;
+	cursor: pointer;
+	height: 5px;
+	width: 60px;
+	margin-right:10px;
+	background-color: #b0b8b9;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .slideshow__radiobutton-point:hover {
+  background-color: #e2534b;
+}
+
+.slideshow__slides_fade {
+	-webkit-animation-name: slideshow__slides_fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: slideshow__slides_fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slideshow__slides_fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes slideshow__slides_fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}

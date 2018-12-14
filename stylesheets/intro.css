@@ -1,0 +1,36 @@
+.intro-wrapper{
+	position: relative;
+	background-color: #ececec;
+	border-radius: 4px;
+	padding: 30px 30px 25px 35px;
+	margin-top: 20px;
+	//margin-left: -10px;
+}
+.intro__headline{
+	color: #888888;
+	font-size: 30px;
+	line-height: 0.3;
+}
+
+.intro__text{ 
+	color: #888888;
+	font-size: 13px;
+}
+
+.intro__button{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 20px;
+	top: 24px;
+	right: 35px;
+	padding: 14px 40px;
+	text-decoration: none;
+	border-radius: 4px;
+	letter-spacing: 1.2px;
+	color:#fff;	
+	background: #e8645a;
+	box-shadow: 0px 3px 0px #e2534b;
+}
+.intro_button:hover{
+	color:#e2534b;
+}
