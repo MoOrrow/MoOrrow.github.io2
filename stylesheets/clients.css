@@ -73,11 +73,11 @@
 }
 
 .clients-carousel__element{
-	width: 16.6%;
-	float: left;
-	margin-left: 15px;
-	background: #fff;
-	border-radius: 5px;
+    width: 16.6%;
+    float: left;
+    margin-left: 15px;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .clients-carousel__element-img{
