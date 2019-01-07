@@ -1,4 +1,5 @@
 .clients{
+    display: block;
 }
 
 .clients-title__text{
@@ -68,14 +69,13 @@
 
 .clients-carousel{
 	padding-bottom: 60px;
-	margin-right: 15px;
+    margin:0 -15px;
 	padding-top: 40px;
 }
 
 .clients-carousel__element{
-    width: 16.6%;
-    float: left;
     margin-left: 15px;
+    margin-right: 15px;
     background: #fff;
     border-radius: 5px;
 }
@@ -85,4 +85,26 @@
 	//text-align: center;
 	width: auto;
   	margin: 0 auto;
+}
+
+@media only screen and (max-width:480px) {
+    .clients{
+        margin-top: 20px;
+    }
+    .clients-title__text{
+        font-size: 14px;
+        
+    }    
+    .clients-separator {
+        width: 45%;
+    }
+    .clients-buttons{
+        display: none;
+    }
+    .clients-carousel{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0 -10px;
+    }
+
 }

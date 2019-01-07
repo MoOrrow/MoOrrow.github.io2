@@ -8,7 +8,7 @@
 	height: 310px;
 	float: left;
 	text-align: center;
-	width: 270px;
+	width: 23%;
 	display: inline-block;
 	border-radius: 4px;		
 	box-shadow: 0px 3px 0px #e5e6e6;
@@ -98,7 +98,7 @@
 	position: absolute;
 	font-size: 14px;
 	bottom: -27px;
-	right: 32px;
+	right: 12.5%;
 	color: #fff;
 	padding: 18px 65px;
 	border-radius: 4px;
@@ -107,3 +107,45 @@
 	box-shadow: 0px 3px 0px #62b9b0;
 	border:3 4px solid;
 }
+
+
+@media only screen and (max-width:480px) {
+	.services-content{
+		margin-top:10px;
+	}
+
+	.services-content__wrapper{
+		width: 100%;
+		margin-bottom: 35px;
+		height: 280px;
+	}
+
+	.services-content__wrapper_second{
+		margin-left: 0px; 
+	}
+
+	.services-content__wrapper_third{
+		margin-left: 0px;
+	}
+
+	.services-content__wrapper_fourth{
+		float: right;
+	}
+
+	.services-content__headline{
+		font-size: 14px;
+	}
+
+	.services-content__text{
+		font-size: 13px;
+		margin-bottom: 75px; 
+	}
+
+	.services-content__button{
+		padding: 9px 32.5px;
+		right: 26.5%;
+		bottom: -5%;
+	}
+
+}
+

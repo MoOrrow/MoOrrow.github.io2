@@ -54,7 +54,6 @@
 	margin-bottom: 30px;
 	margin-left: 5px;
 	font-weight: 700;
-	margin-bottom: 20px;
 }
 
 .footer-company__list{
@@ -132,8 +131,9 @@
 }
 
 .footer-blog__item{
+	display: inline-block;
 	width: 100%;
-	margin-bottom: 115px;
+	margin-bottom: 20px;
 	min-width: 100px;	
 }
 
@@ -191,5 +191,54 @@
 .footer-feedback__social-facebook,.footer-feedback__social-gplus,
 .footer-feedback__social-twitter,.footer-feedback__social-rss{ 
 	margin-left: 25px;
+}
+
+
+@media screen and (max-width: 480px){
+	.footer-wrapper{
+		padding-bottom: 20px;
+	}
+
+	.footer-wrapper__info{
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.footer-wrapper__company{
+		margin-top: 20px;
+		width: 100%;
+		float: none;
+	}
+	.footer-company__title{
+		margin-bottom: 10px;
+		margin-left: 0px;
+
+	}
+
+	.footer-wrapper__community{
+		width: 100%;
+		float: none;
+	}
+
+	.footer-community__title{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}	
+	.footer-wrapper__blog{
+		width: 100%;
+		margin-top: 20px;
+		float: none;
+	}
+
+	.footer-blog__item{
+		margin-bottom: 15px;
+	}
+
+	.footer-blog__title{
+		margin-bottom: 10px;
+	}
+	.footer-blog__item_second{
+		display: none;
+	}
 }
 

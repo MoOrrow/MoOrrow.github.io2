@@ -34,3 +34,29 @@
 .intro_button:hover{
 	color:#e2534b;
 }
+
+@media only screen and (max-width:480px) {
+	.intro-wrapper{
+		height: 120px;
+	}
+	.intro__headline{
+		font-size: 20px;
+		line-height: 1;
+		margin-top: -20px;
+	}
+	
+	.intro__text{ 
+		font-size: 12px;
+		margin-top: -15px;
+	}
+	
+	.intro__button{
+		font-size: 12px;
+		top: 75%;
+		left: 10%;
+		right: 50%;
+		padding: 7px 20px;
+	
+	}
+
+}
